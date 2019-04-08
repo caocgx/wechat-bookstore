@@ -11,7 +11,7 @@ Page({
     orderAddress: '无',
     postImages: [],
     totalPrice: 0,
-
+  
   },
 
   /**
