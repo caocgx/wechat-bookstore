@@ -1,0 +1,160 @@
+/**app.wxss**/
+
+/* 搜索 */
+.search {
+  display: flex;
+  width: 730rpx;
+  height: 57rpx;
+  background-color: #ffb;
+  margin: 0 auto;
+  border-radius: 100rpx;
+  align-items: center;
+}
+
+.search .search-box .ico image {
+  width: 27rpx;
+  height: 27rpx;
+  margin-left: 20rpx;
+}
+
+.search .search-text {
+  font-size: 25rpx;
+  color: #b2b1b1;
+  margin-left: 15rpx;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.hotsale-body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hotsale-item {
+  width: 225rpx;
+  height: 335rpx;
+  padding-top: 20rpx;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 15rpx;
+  text-align: center;
+}
+
+.hotsale-item .hotsale-item-img image {
+  width: 184rpx;
+  height: 240rpx;
+}
+
+.hotsale-item .hotsale-item-title {
+  font-size: 24rpx;
+  color: #484848;
+  padding: 0 20rpx;
+}
+
+.hotsale-item .hotsale-item-price {
+  color: #e12616;
+  font-size: 24rpx;
+  margin-top: 5rpx;
+}
+
+.hotsale-item .hotsale-item-price text {
+  font-size: 32rpx;
+}
+
+/* 强制不换行，多余省略 */
+
+.dont_wrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.footer-car{
+  display: flex;
+  justify-content: flex-end;
+  background: #fff;
+  height: 100rpx;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px #eaeaea solid;
+}
+
+.footer-car .addtocar,.footer-car .buynow{
+   width: 230rpx;
+   height: 100rpx;
+   background: #E53E30;
+   color: #fff;
+   font-size: 30rpx;
+   text-align: center;
+   line-height: 100rpx;
+}
+
+.footer-car .buynow{
+  background: #FFB350;
+}
+
+.footer-car .footer-menu{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-size: 20rpx;
+     color: #666;
+     width: 296rpx;
+     text-align: center;
+     padding: 10rpx 20rpx 0;
+}
+
+.footer-car .footer-menu view{
+  width: 33.33%;
+}
+
+.footer-car .footer-menu image{
+   width: 45rpx;
+   height: 45rpx;
+   display: block;
+   margin: 0 auto;
+}
+
+.menu-share{
+  position: relative;
+}
+
+.sharebtn{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0
+}
+
+.menu-car{
+  position: relative;
+}
+
+.car-counts{
+  position: absolute;
+  width: 30rpx;
+  height: 30rpx;
+  background: #E53E30;
+  color: #fff;
+  border-radius: 50%;
+  top: -5rpx;
+  right: 10rpx;
+}
+
+
+
+

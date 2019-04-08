@@ -1,0 +1,105 @@
+.movelist-search {
+  background-color: #ffdfec;
+}
+
+.class-box {
+  padding: 20rpx 30rpx;
+}
+
+.class-item {
+  margin: 20rpx 0 0;
+}
+
+.class-title {
+  font-size: 24rpx;
+  border-left: 5rpx #e43728 solid;
+  padding-left: 10rpx;
+  color: #4f4f4f;
+}
+
+.class-list {
+  font-size: 22rpx;
+  color: #999;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.class-list text {
+  text-align: center;
+  padding: 3rpx 20rpx;
+  border: 1px #ccc solid;
+  border-radius: 21rpx;
+  margin: 15rpx 10rpx 0 0;
+}
+
+.country {
+  border-left: 5rpx #9c0 solid;
+}
+
+.class-list .active_class {
+  color: #e43728;
+  border: 1px #e43728 solid;
+}
+
+.class-list .active_country {
+  color: #9c0;
+  border: 1px #9c0 solid;
+}
+
+
+.movie-box{
+  display: flex;
+  align-items: flex-start;
+  padding: 20rpx 20rpx 10rpx 50rpx;
+  border-top: 1px #E4E4E4 solid;
+}
+
+.movie-poster image{
+  width: 175rpx;
+  height: 228rpx;
+  border-radius: 8rpx;
+  margin: 20rpx 20rpx 0 0;
+}
+
+.movie-info{
+  color: #666;
+  font-size: 24rpx;
+}
+.p-title{
+  font-size: 28rpx;
+  color: #000;
+  font-weight: bold;
+}
+
+.p-price{
+  color: #e43728;
+}
+
+.p-price text{
+  font-size: 26rpx;
+}
+
+.stars{
+  display: flex;
+  align-items: center;
+}
+
+.stars image{
+  width: 25rpx;
+  height: 25rpx;
+  margin-right: 5rpx;
+}
+
+.stars text{
+  padding-left: 10rpx;
+}
+
+
+.p-role{
+  display: flex;
+}
+.role_name{
+  width: 83%;
+  display: block;
+}

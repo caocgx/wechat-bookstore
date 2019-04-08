@@ -1,0 +1,104 @@
+page {
+  background-color: #f1f1f1;
+}
+
+.myinfo-body {
+  padding: 26rpx;
+  margin-top: 20rpx;
+}
+
+.myinfo-body-box, .myinfo-submit-box {
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 18rpx 18rpx 0;
+}
+
+.myinfo-item {
+  display: flex;
+  height: 65rpx;
+  line-height: 65rpx;
+  border-bottom: #d8d8d8 1px solid;
+  font-size: 26rpx;
+  color: #666;
+  padding: 20rpx 18rpx 0;
+}
+
+.common-input {
+  height: 65rpx;
+}
+
+.address {
+  border: none;
+  padding: 18rpx 0 0 0;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.address view {
+  display: flex;
+  width: 70%;
+  padding-left: 18rpx;
+  border-bottom: #d8d8d8 1px solid;
+}
+
+.address button {
+  width: 160rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  border-radius: 50rpx;
+  font-size: 20rpx;
+  color: #fff;
+  margin: 0;
+  background-color: #99f;
+}
+
+.header {
+  border: none;
+  padding: 30rpx 18rpx;
+  align-items: center;
+}
+
+.choosephoto {
+  width: 250rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border-radius: 40rpx;
+  font-size: 20rpx;
+  color: #fff;
+  background-color: #9c0;
+}
+
+.myinfo-submit {
+  padding: 20rpx;
+}
+
+.myinfo-submit-box {
+  display: flex;
+  align-items: center;
+  padding: 30rpx 120rpx;
+}
+
+.myinfo-submit-box button {
+  width: 147rpx;
+  height: 50rpx;
+  font-size: 26rpx;
+  border-radius: 50rpx;
+  line-height: 50rpx;
+  color: #fff;
+}
+
+.myinfo-submit-confirm {
+  background-color: #f53f4a;
+}
+
+.myinfo-submit-reset {
+  background-color: #999;
+}
+
+.header image{
+  width: 60rpx;
+  height: 60rpx;
+  border: #99CC00 1rpx solid;
+  border-radius: 50%;
+  margin-right: 45rpx;
+}

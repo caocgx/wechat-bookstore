@@ -1,0 +1,63 @@
+page {
+  box-sizing: border-box;
+  padding: 30rpx;
+  background: #f1f1f1;
+}
+
+.mycomment-item {
+  background: #fff;
+  border-radius: 10rpx;
+  margin-bottom: 50rpx;
+}
+
+.mycomment-item-box {
+  padding:34rpx;
+}
+
+.product-name {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 35rpx;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px #999 dotted;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.stars {
+  text-align: center;
+  margin: 20rpx 0;
+}
+
+.stars image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.editer textarea {
+  width: 600rpx;
+  height: 150rpx;
+  border: 1px #999 solid;
+  border-radius: 8rpx;
+  padding: 10rpx;
+  font-size: 24rpx;
+}
+
+.confirm {
+  text-align: center;
+  margin-top: 20rpx;
+}
+
+.confirm button {
+  width: 109rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border-radius: 40rpx;
+  background: #d81e06;
+  color: #fff;
+  font-size: 24rpx;
+}

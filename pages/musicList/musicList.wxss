@@ -1,0 +1,99 @@
+.musiclist-search {
+  background: #def2fc;
+}
+
+.music-box:nth-child(2n){
+  background-color: #EEEEEE;
+}
+
+.class-music {
+  display: flex;
+  padding: 10rpx 20rpx;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ccc;
+}
+
+.class-music view {
+  font-size: 28rpx;
+  color: #666;
+  border: 1px #666 solid;
+  border-radius: 21rpx;
+  padding: 3rpx 10rpx;
+  margin-top: 20rpx;
+  /* margin-left: 10rpx; */
+}
+
+.active{
+  border: 1px #e43728 solid!important;
+  color: #e43728!important;
+}
+
+.p-price {
+  color: #e43728;
+  /* padding: 10rpx 0; */
+}
+
+.p-price text {
+  font-size: 26rpx;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.stars image {
+  width: 25rpx;
+  height: 25rpx;
+  margin-left: 5rpx;
+}
+
+.stars text {
+  padding-left: 10rpx;
+}
+
+.music-box {
+  display: flex;
+  font-size: 24rpx;
+  color: #666;
+  padding: 20rpx 30rpx;
+  align-items:flex-start;
+}
+
+.music-poster image {
+  width: 120rpx;
+  height: 120rpx;
+  margin: 12rpx 30rpx 0 0;
+}
+
+.p-title {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #000;
+}
+
+.music-control {
+  display: flex;
+  padding-top: 5rpx;
+}
+
+.music-control view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22rpx;
+  width: 100rpx;
+  height: 35rpx;
+  border: 1px #639ace solid;
+  border-radius: 35rpx;
+  margin-right: 10rpx;
+}
+
+.music-control view image {
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 5rpx;
+}
+

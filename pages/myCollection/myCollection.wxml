@@ -1,0 +1,57 @@
+<view class='collection'>
+
+  <view class='collection-item'>
+    <view class='collection-box'>
+      <view class='collection-poster'>
+        <image src='https://www.huachengzhubao.com/syweb10/static/images/temp2.jpg'></image>
+      </view>
+      <view class='colection-content'>
+        <view class='content-title dont_wrap'>健康日历2019：丁香医生(团购电话：010-57993286...</view>
+        <view class='content-author'>作者：丁香医生</view>
+        <view class='content-pubicer'>出版社：思创科技出版社</view>
+        <view class='content-pubicDate'>出版时间：2018-10-20</view>
+        <view class='content-descript'>此处用于描述本书的介绍，图书介绍，本书的基本概要和价值或明，以及其他内容...</view>
+        <view class='content-price'>￥
+          <text>44</text>.00</view>
+        <view class='content-comment'>
+          <view class='stars'>
+            <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+            <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+            <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+            <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+            <image src='../../static/ico/star-gray.png'></image>
+          </view>
+          <view class='comment-counts'>1198条评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='collection-item'>
+    <view class='collection-box'>
+      <view class='collection-poster'>
+        <image src='https://www.huachengzhubao.com/syweb10/static/images/temp2.jpg'></image>
+      </view>
+      <view class='colection-content'>
+        <view class='content-title dont_wrap'>健康日历2019：丁香医生(团购电话：010-57993286...</view>
+        <view class='content-author'>作者：丁香医生</view>
+        <view class='content-pubicer'>出版社：思创科技出版社</view>
+        <view class='content-pubicDate'>出版时间：2018-10-20</view>
+        <view class='content-descript'>此处用于描述本书的介绍，图书介绍，本书的基本概要和价值或明，以及其他内容...</view>
+        <view class='content-price'>￥
+          <text>44</text>.00</view>
+        <view class='content-comment'>
+          <view class='stars'>
+            <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+            <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+            <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+            <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+            <image src='../../static/ico/star-gray.png'></image>
+          </view>
+          <view class='comment-counts'>1198条评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

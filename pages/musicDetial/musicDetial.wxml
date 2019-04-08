@@ -1,0 +1,198 @@
+<view class='musicdetail'>
+
+  <!-- 信息 -->
+  <view class='music-info'>
+
+    <view class='comm-box'>
+      <view class='info-title'>相关信息</view>
+
+      <view class='music-player'>
+        <view class='poster' style='background:url("{{myhost}}{{datas.coverurl}}"); background-size:contain'>
+          <image src='../../static/ico/play_btn.png' bindtap='play'
+          wx:if="{{!isplay}}"></image>
+          <image src='../../static/ico/pause_btn.png' bindtap='pause'
+          wx:if="{{isplay}}"></image>
+        </view>
+        <view class='music-product'>
+          <text class='music-name'>{{datas.musicname}}</text>
+          <text class='music-singer'>{{datas.singer}}</text>
+        </view>
+        <view class='music-time'>{{dt}}</view>
+      </view>
+
+      <view class='info-author commonstyle'>
+        <view>
+          <text>歌手</text>{{datas.singer}}
+        </view>
+        <view class='info-view'>查看作品></view>
+      </view>
+      <view class='info-publicer commonstyle'>
+        <view>
+          <text>编曲</text>{{datas.composer}}
+        </view>
+        <view class='info-view'>查看作品></view>
+      </view>
+       <view class='info-publicer commonstyle'>
+        <view>
+          <text>作词</text>{{datas.writer}}
+        </view>
+        <view class='info-view'>查看作品></view>
+      </view>
+      <view class='info-class commonstyle'>
+        <view>
+          <text>分类</text>{{datas.cname}}
+        </view>
+        <view class='info-view'>查看分类></view>
+      </view>
+    </view>
+
+    <!-- 价格 -->
+
+    <view class='music-price'>
+      <view class='comm-box price-box'>
+        <view class='prcie-title'>
+          价格
+          <text>￥{{datas.price}}</text>
+        </view>
+
+        <view class='music-control'>
+          <view bindtap='play'>
+            <image src='https://www.huachengzhubao.com/syweb10/static/ico/play.png'></image>
+            <text>播放</text>
+          </view>
+          <view>
+            <image src='https://www.huachengzhubao.com/syweb10/static/ico/star-yellow.png'></image>
+            <text bindtap='pause'>暂停</text>
+          </view>
+          <view>
+            <image src='https://www.huachengzhubao.com/syweb10/static/ico/download.png'></image>
+            <text>下载</text>
+          </view>
+          <view>
+            <image src='https://www.huachengzhubao.com/syweb10/static/ico/collect.png'></image>
+            <text>收藏</text>
+          </view>
+        </view>
+      </view>
+
+    </view>
+
+  </view>
+
+  <!-- 歌词 -->
+
+  <view class='music-lyrics'>
+     <view class='comm-box'>
+        <view class='lyrics-title'>歌词</view>
+        <view class='lyrics-body'><rich-text nodes="{{nodes}}">{{datas.words}}</rich-text></view>
+     </view>
+  </view>
+
+  <view class='comm-comment'>
+    <view class='comm-box info-box'>
+      <view class='comment-title'>
+        商品评论
+      </view>
+
+      <view class='comment-item'>
+
+        <view class='comment-author'>
+
+          <view class='author-header'>
+
+            <image class='header-photo' src='https://www.huachengzhubao.com/syweb10/static/images/header.png'></image>
+
+            <view class='stars'>
+
+              <view class='author-name'>睿智的***阿拉丁</view>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+            </view>
+
+          </view>
+
+        </view>
+
+        <view class='comment-body'>这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容</view>
+      </view>
+
+      <view class='comment-item'>
+
+        <view class='comment-author'>
+
+          <view class='author-header'>
+
+            <image class='header-photo' src='https://www.huachengzhubao.com/syweb10/static/images/header.png'></image>
+
+            <view class='stars'>
+
+              <view class='author-name'>睿智的***阿拉丁</view>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+            </view>
+
+          </view>
+
+        </view>
+
+        <view class='comment-body'>这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容</view>
+      </view>
+
+      <view class='comment-item'>
+
+        <view class='comment-author'>
+
+          <view class='author-header'>
+
+            <image class='header-photo' src='https://www.huachengzhubao.com/syweb10/static/images/header.png'></image>
+
+            <view class='stars'>
+
+              <view class='author-name'>睿智的***阿拉丁</view>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+            </view>
+
+          </view>
+
+        </view>
+
+        <view class='comment-body'>这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容</view>
+      </view>
+
+      <view class='footer-car'>
+        <view class='footer-menu'>
+          <view class='menu-home'>
+            <image src='http://www.huachengzhubao.com/syweb10/static/ico/tabbar_home_gray.png'></image>
+            <text>首页</text>
+          </view>
+          <view class='menu-share'>
+            <image src='http://www.huachengzhubao.com/syweb10/static/ico/share.png'></image>
+            <text>分享</text>
+            <button class='sharebtn' bindtap='btn' plain='true' open-type='share'></button>
+          </view>
+          <view class='menu-car'>
+            <image src='http://www.huachengzhubao.com/syweb10/static/ico/tabbar_cart_gray.png'></image>
+            <text>购物车</text>
+            <text class='car-counts'>{{cartCounts}}</text>
+          </view>
+        </view>
+        <view class='buynow'>立即购买</view>
+        <view class='addtocar' bindtap='cart'>加入购物车</view>
+      </view>
+
+    </view>
+  </view>
+
+  <!-- 底部 -->
+
+</view>

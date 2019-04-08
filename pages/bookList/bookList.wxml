@@ -1,0 +1,56 @@
+<view class='booklist'>
+
+  <view class='search movelist-search'>
+    <view class='search-box'>
+      <view class='ico'>
+        <image src='../../static/ico/search.png'></image>
+      </view>
+    </view>
+    <view class='search-text'>
+      <text>搜索全部商品</text>
+    </view>
+  </view>
+
+  <view class='class-book'>
+    <view class="{{activeHealth}}" data-tap='health' bindtap='changeList'>健康养生</view>
+    <view class="{{activeYoungth}}" data-tap='youngth' bindtap='changeList'>青春文学</view>
+    <view class="{{activePeople}}" data-tap='people' bindtap='changeList'>人物传记</view>
+    <view class="{{activeChild}}" data-tap='child' bindtap='changeList'>儿童图书</view>
+    <view class="{{activeScience}}" data-tap='science' bindtap='changeList'>科学技术</view>
+    <view class="{{activeHotsell}}" data-tap='bookmoretop' bindtap='changeList'>热销图书</view>
+    <view class="{{activeFreepost}}" data-tap='freepost' bindtap='changeList'>9.9元包邮</view>
+    <view class="{{activeNewbook}}" data-tap='newbook' bindtap='changeList'>新书上架</view>
+  </view>
+
+  <view class='book-item'>
+
+    <block wx:for="{{list}}" wx:key="{item.id}">
+
+      <view class='movie-box' data-id="{{item.id}}" bindtap='gobookdetail'>
+        <view class='movie-poster'>
+          <image src='{{myhost}}{{item.coverurl}}'></image>
+        </view>
+
+        <view class='movie-info'>
+          <view class='p-title dont_wrap'>{{item.bookname}}</view>
+          <view class='p-dirctor'>作者：{{item.author}}</view>
+          <view class='p-writer'>出版社：{{item.publicer}}</view>
+          <view class='p-role'>出版时间：{{item.date}}</view>
+          <view class='p-decript'>{{item.descript}}</view>
+          <view class='p-price'>￥
+            <text>{{item.price_int}}</text> .{{item.price_float}}</view>
+
+          <view class='p-comment'>
+            <view class='stars'>
+              <star starnums="{{item.stars}}"></star>
+              <text class='counts'>{{item.commont_count}}条评论</text>
+            </view>
+          </view>
+        </view>
+      </view>
+
+    </block>
+
+  </view>
+
+</view>

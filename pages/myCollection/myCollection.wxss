@@ -1,0 +1,59 @@
+page {
+  box-sizing: border-box;
+  padding: 30rpx;
+  background: #f1f1f1;
+}
+
+.collection-item {
+  background: #fff;
+  border-radius: 10rpx;
+  margin-bottom: 50rpx;
+  padding: 20rpx;
+}
+
+.collection-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collection-poster{
+  margin: 0 30rpx;
+}
+
+.collection-poster image{
+   width: 175rpx;
+   height: 230rpx;
+}
+
+.colection-content{
+  color: #666;
+  font-size: 23rpx;
+  overflow: hidden;
+}
+
+.content-title{
+  color: #000;
+  font-size: 28rpx;
+}
+
+.content-price{
+  color: #E43728;
+  margin: 10rpx 0;
+  font-size: 24rpx;
+}
+
+.content-price text{
+  font-size: 26rpx;
+}
+
+.content-comment{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.stars image{
+  width: 25rpx;
+  height: 25rpx;
+}

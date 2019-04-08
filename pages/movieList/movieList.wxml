@@ -1,0 +1,71 @@
+<view class='movelist'>
+  <view class='search movelist-search'>
+    <view class='search-box'>
+      <view class='ico'>
+        <image src='../../static/ico/search.png'></image>
+      </view>
+    </view>
+    <view class='search-text'>
+      <text>搜索全部商品</text>
+    </view>
+  </view>
+
+  <view class='class-box'>
+
+    <view class='class-item'>
+      <view class='class-title'>全部类型</view>
+      <view class='class-list'>
+        <text class='{{active_style}}' data-sname="allstyle" bindtap='changeStyleList'>全部</text>
+        <block wx:for="{{movieclass.style}}" wx:key="{{item.id}}">
+          <text id='{{index}}' class='{{item.activestyle}}' data-sname="{{item.cname}}" bindtap='changeStyleList'>{{item.cname}}
+         </text>
+        </block>
+      </view>
+    </view>
+
+    <view class='class-item'>
+      <view class='class-title country'>全部地区</view>
+      <view class='class-list'>
+        <text class='{{active_country}}' data-cname="allcountry" bindtap='changeCountryList'>全部</text>
+        <block wx:for="{{movieclass.country}}" wx:key="{{item.id}}">
+          <text data-cname="{{item.cname}}" class='{{item.activecountry}}' bindtap='changeCountryList'>{{item.cname}}</text>
+        </block>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='movie-item'>
+    <block wx:for="{{list}}" wx:key="{{item.id}}">
+      <view class='movie-box' data-id='{{item.id}}' bindtap='gomovieDetial'>
+        <view class='movie-poster'>
+          <image src='{{myhost}}{{item.coverurl}}'></image>
+        </view>
+
+        <view class='movie-info'>
+          <view class='p-title'>{{item.moviename}}</view>
+          <view class='p-dirctor'>导演：
+            <text>{{item.director}}</text>
+          </view>
+          <view class='p-writer'>编剧：{{item.writer}}</view>
+          <view class='p-role'> 主演：
+            <text class='role_name'>{{item.roles}}</text>
+          </view>
+          <view class='p-class'>类型：{{item.class_style}}</view>
+          <view class='p-country'>制片国家/地区：{{item.class_country}}</view>
+          <view class='p-price'>￥
+            <text>{{item.price_int}}</text> .{{item.price_float}}</view>
+
+          <view class='p-comment'>
+            <view class='stars'>
+              <star starnums="{{item.stars}}"></star>
+              <text class='counts'>{{item.commont_count}}条评论</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </block>
+
+  </view>
+
+</view>

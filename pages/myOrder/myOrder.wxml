@@ -1,0 +1,52 @@
+<view class='order'>
+
+  <!-- <view class='order-item' wx:for="{{list}}">
+    <view class='order-box'>
+      <view class='order-poster'>
+        <image src='{{myhost}}{{item.coverurl}}'></image>
+      </view>
+      <view class='order-content'>
+        <view class='content-title dont_wrap'>{{item.pname}}</view>
+        <view class='price-date'>
+          <text>下单日期：{{item.dt}}</text>
+          <text>商品价格：￥{{item.price}}</text>
+        </view>
+       
+        <view class='comment-body'></view>
+      </view>
+    </view>
+  </view> -->
+
+  <view class='order-item' wx:for="{{list}}">
+    <view class='order-box'>
+      <view class='order-poster'>
+        <image src='{{myhost}}{{item.coverurl}}'></image>
+      </view>
+      <view class='order-content'>
+        <view class='content-title dont_wrap'>{{item.pname}}</view>
+        <view class='price-date'>
+          <text>下单日期：{{item.dt}}</text>
+          <text>商品价格：￥{{item.price}}</text>
+        </view>
+
+        <!-- 有评论 -->
+        <block wx:if='{{item.comment.stars>0}}'>
+          <view class='content-comment'>
+            <view class='stars'>
+              <star starnums="{{item.comment.stars}}"></star>
+              <text class='counts'>{{item.comment.stars}}星评论</text>
+            </view>
+            <view class='editbtn' data-catagory='{{item.catagory}}' data-pid='{{item.pid}}'  data-stars='{{item.comment.stars}}'  data-notes='{{item.comment.notes}}' data-action='edit' bindtap='editComment'>编辑评论</view>
+          </view>
+          <view class='comment-body'>{{item.comment.notes}}</view>
+        </block>
+
+        <!-- 无评论 -->
+        <block wx:else>
+          <view class='publishbtn' data-catagory='{{item.catagory}}' data-pid='{{item.pid}}' bindtap='goComment'>发表评论</view>
+        </block>
+      </view>
+    </view>
+  </view>
+
+</view>

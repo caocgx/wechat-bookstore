@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "star": "../../component/star"
+  },
+  "navigationBarTitleText": "图书详情"
+}

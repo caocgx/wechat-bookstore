@@ -1,0 +1,34 @@
+page {
+  box-sizing: border-box;
+  padding: 40rpx 30rpx;
+  background: #f1f1f1;
+}
+
+.history {
+  background: #fff;
+  border-radius: 10rpx;
+  margin-bottom: 50rpx;
+  padding: 0 20rpx;
+}
+
+.history-item {
+  border-bottom: 1px #999 dotted;
+  padding: 20rpx 0;
+}
+
+.history-item:last-child {
+  border: none;
+}
+
+.history-date {
+  color: #999;
+  font-size: 24rpx;
+}
+
+.history-obj {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 20rpx 0;
+  font-size: 30rpx;
+}

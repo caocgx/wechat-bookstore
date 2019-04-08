@@ -1,0 +1,67 @@
+<view class='musiclist'>
+
+  <view class='search musiclist-search'>
+    <view class='search-box'>
+      <view class='ico'>
+        <image src='../../static/ico/search.png'></image>
+      </view>
+    </view>
+    <view class='search-text'>
+      <text>搜索全部音乐</text>
+    </view>
+  </view>
+
+  <view class='class-music'>
+    <block wx:for="{{catagory}}" wx:key="{{item.id}}">
+        <view class='{{item.class}}' data-id="{{item.id}}" bindtap='classitem'>{{item.cname}}</view>
+    </block>
+  </view>
+  
+  <block wx:if="{{list.length>0}}">
+     <view class='music-item'>
+    <view class='music-box' wx:for="{{list}}" wx:key="{{item.id}}" data-id="{{item.id}}" bindtap='gomusicDetial'>
+      <view class='music-poster'>
+        <image src='{{myhost}}{{item.coverurl}}'></image>
+      </view>
+      <view class='music-info'>
+        <view class='p-title'>{{item.musicname}}</view>
+        <view class='p-singer'>原唱：{{item.singer}}/作曲：{{item.composer}}/填词：{{item.writer}}</view>
+        <view class='p-price'>￥
+          <text>{{item.price_int}}</text>.{{item.price_float}}</view>
+
+        <view class='p-comment'>
+          <view class='stars'>
+            <star starnums="{{item.stars}}"></star>
+            <text class='counts'>{{item.commont_count}}条评论</text>
+          </view>
+        </view>
+        <view class='music-control'>
+
+          <view>
+            <image src='https://www.huachengzhubao.com/syweb10/static/ico/play.png'></image>
+            <text>播放</text>
+          </view>
+          <view>
+            <image src='https://www.huachengzhubao.com/syweb10/static/ico/star-yellow.png'></image>
+            <text>暂停</text>
+          </view>
+          <view>
+            <image src='https://www.huachengzhubao.com/syweb10/static/ico/download.png'></image>
+            <text>下载</text>
+          </view>
+          <view>
+            <image src='https://www.huachengzhubao.com/syweb10/static/ico/collect.png'></image>
+            <text>收藏</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  </block>
+
+  <block wx:else>
+     <view>暂无数据！</view>
+  </block>
+  
+
+</view>

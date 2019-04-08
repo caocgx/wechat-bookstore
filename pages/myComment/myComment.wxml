@@ -1,0 +1,45 @@
+<view class='mycomment'>
+
+  <view class='mycomment-item'>
+
+    <view class='mycomment-item-box'>
+
+      <view class='product-name'>健康日历2019：丁香医生(团购电话：010-57993286...</view>
+      <view class='stars'>
+        <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+        <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+        <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+        <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+        <image src='http://www.huachengzhubao.com/syweb10/static/ico/star-gray.png'></image>
+      </view>
+      <view class='editer'><textarea></textarea></view>
+      <view class='confirm'>
+        <button>确定</button>
+      </view>
+
+    </view>
+
+  </view>
+
+   <view class='mycomment-item'>
+
+    <view class='mycomment-item-box'>
+
+      <view class='product-name'>健康日历2019：丁香医生(团购电话：010-57993286...</view>
+      <view class='stars'>
+        <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+        <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+        <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+        <image src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+        <image src='http://www.huachengzhubao.com/syweb10/static/ico/star-gray.png'></image>
+      </view>
+      <view class='editer'><textarea></textarea></view>
+      <view class='confirm'>
+        <button>确定</button>
+      </view>
+
+    </view>
+
+  </view>
+
+</view>

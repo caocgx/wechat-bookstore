@@ -1,0 +1,19 @@
+<view class='history'>
+
+  <view class='history-item'>
+    <view class='history-date'>日期：2018-12-04 8:30:23</view>
+    <view class='history-obj'>健康日历2019：丁香医生(团购电话：010-57993286...</view>
+  </view>
+
+  <view class='history-item'>
+    <view class='history-date'>日期：2018-12-04 8:30:23</view>
+    <view class='history-obj'>健康日历2019：丁香医生(团购电话：010-57993286...</view>
+  </view>
+
+  <view class='history-item'>
+    <view class='history-date'>日期：2018-12-04 8:30:23</view>
+    <view class='history-obj'>健康日历2019：丁香医生(团购电话：010-57993286...</view>
+  </view>
+
+
+</view>

@@ -1,0 +1,80 @@
+.movelist-search {
+  background-color: #d2ffff;
+}
+
+.class-book {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.class-book view {
+  width: 25%;
+  text-align: center;
+  padding: 30rpx 0 15rpx;
+  border-bottom: 1px #E4E4E4 solid;
+}
+
+.class-book .active{
+  color: #e43728;
+  border: none;
+  border-bottom: 1px #e43728 solid;
+}
+
+.movie-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20rpx 20rpx 20rpx 50rpx;
+  border-bottom: 1px #E4E4E4 solid;
+}
+
+.movie-poster image{
+  width: 175rpx;
+  height: 228rpx;
+  margin: 10rpx 30rpx 0 0;
+  border-radius: 8rpx;
+}
+
+.movie-info{
+  color: #666;
+  font-size: 24rpx;
+  width: 100%;
+}
+
+.p-title{
+  width: auto;
+  font-size: 28rpx;
+  color: #000;
+  font-weight: bold;
+}
+
+.p-price{
+  color: #e43728;
+  
+}
+
+.p-price text{
+  font-size: 26rpx;
+}
+
+.p-decript{
+  font-size: 22rpx;
+}
+
+.stars{
+  display: flex;
+  align-items: center;
+}
+
+.stars image{
+  width: 25rpx;
+  height: 25rpx;
+  margin-left: 5rpx;
+}
+
+.stars text{
+  padding-left: 10rpx;
+}
+

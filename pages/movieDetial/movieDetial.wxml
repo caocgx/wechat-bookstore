@@ -1,0 +1,183 @@
+<view class='moviedetail'>
+
+  <view class='view'>
+    <view class='comm-box'>
+      <view class='view-title'>
+        <view class='title-name'>
+          <text>{{datas.moviename}}</text>
+          <image src='https://www.huachengzhubao.com/syweb10/static/ico/addcollect.png'></image>
+        </view>
+      </view>
+
+      <view class='view-body'>{{datas.descript}}</view>
+    </view>
+
+  </view>
+
+  <view class='movie-content'>
+    <view class='comm-box info-box'>
+      <view class='content-title'>花絮欣赏</view>
+      <view class='video'>
+          <video  src="{{datas.movieurl}}"
+        controls></video>
+      </view>
+    </view>
+  </view>
+
+  <view class='movie-price'>
+    <view class='comm-box'>
+      <view class='price-title'>
+        <view class='vip'>
+          <view> 单片会员价</view>
+          <view class='vip-price'>￥
+            <text>{{datas.price_int}}</text>.{{datas.price_float}}</view>
+        </view>
+        <view class='tip'>(注：版权所有腾讯公司，未经许可，不得转载)</view>
+      </view>
+      <view class='moviebtn'>
+        <view>观赏正片</view>
+        <view>下载影片</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='comm-info'>
+
+    <view class='comm-box info-box'>
+      <view class='info-title'>相关信息</view>
+      <view class='info-author commonstyle'>
+        <view>
+          <text>导演</text>{{datas.director}}
+        </view>
+        <view class='info-view'>查看作品></view>
+      </view>
+      <view class='info-publicer commonstyle'>
+        <view class='p_roles'>
+          <text >主演</text><text class='role_name'>{{datas.roles}}</text>
+        </view>
+      </view>
+      <view class='info-class commonstyle'>
+        <view>
+          <text>类型</text>{{datas.class_style}}
+        </view>
+      </view>
+      <view class='info-class commonstyle'>
+        <view>
+          <text>国家</text>{{datas.class_country}}
+        </view>
+        <view class='info-view'>查看作品></view>
+      </view>
+      <view class='info-class commonstyle'>
+        <view>
+          <text>片长</text>{{datas.longs}}
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='comm-comment'>
+    <view class='comm-box info-box'>
+      <view class='comment-title'>
+        商品评论
+      </view>
+
+      <view class='comment-item'>
+
+        <view class='comment-author'>
+
+          <view class='author-header'>
+
+            <image class='header-photo' src='https://www.huachengzhubao.com/syweb10/static/images/header.png'></image>
+
+            <view class='stars'>
+
+              <view class='author-name'>睿智的***阿拉丁</view>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+            </view>
+
+          </view>
+
+        </view>
+
+        <view class='comment-body'>这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容</view>
+      </view>
+
+      <view class='comment-item'>
+
+        <view class='comment-author'>
+
+          <view class='author-header'>
+
+            <image class='header-photo' src='https://www.huachengzhubao.com/syweb10/static/images/header.png'></image>
+
+            <view class='stars'>
+
+              <view class='author-name'>睿智的***阿拉丁</view>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+            </view>
+
+          </view>
+
+        </view>
+
+        <view class='comment-body'>这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容</view>
+      </view>
+
+      <view class='comment-item'>
+
+        <view class='comment-author'>
+
+          <view class='author-header'>
+
+            <image class='header-photo' src='https://www.huachengzhubao.com/syweb10/static/images/header.png'></image>
+
+            <view class='stars'>
+
+              <view class='author-name'>睿智的***阿拉丁</view>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+              <image class='red-star25x25' src='http://www.huachengzhubao.com/syweb10/static/ico/star.png'></image>
+            </view>
+
+          </view>
+
+        </view>
+
+        <view class='comment-body'>这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容这是评论内容</view>
+      </view>
+
+      <view class='footer-car'>
+        <view class='footer-menu'>
+          <view class='menu-home'>
+            <image src='http://www.huachengzhubao.com/syweb10/static/ico/tabbar_home_gray.png'></image>
+            <text>首页</text>
+          </view>
+          <view class='menu-share'>
+            <image src='http://www.huachengzhubao.com/syweb10/static/ico/share.png'></image>
+            <text>分享</text>
+            <button class='sharebtn' bindtap='btn' plain='true' open-type='share'></button>
+          </view>
+          <view class='menu-car'>
+            <image src='http://www.huachengzhubao.com/syweb10/static/ico/tabbar_cart_gray.png'></image>
+            <text>购物车</text>
+            <text class='car-counts'>{{cartCounts}}</text>
+          </view>
+        </view>
+        <view class='buynow'>立即购买</view>
+        <view class='addtocar'  bindtap='cart'>加入购物车</view>
+      </view>
+
+    </view>
+  </view>
+</view>

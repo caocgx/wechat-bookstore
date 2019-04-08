@@ -1,0 +1,106 @@
+page {
+  box-sizing: border-box;
+  padding: 30rpx 15rpx;
+  background: #f1f1f1;
+}
+
+.order-item {
+  background: #fff;
+  border-radius: 10rpx;
+  margin-bottom: 25rpx;
+  padding: 35rpx;
+}
+
+.order-box {
+  display: flex;
+  width: 100%;
+}
+
+.order-poster {
+  margin-right: 35rpx;
+}
+
+.order-poster image {
+  width: 175rpx;
+  height: 230rpx;
+  border-radius: 8rpx;
+}
+
+.order-content {
+  font-size: 20rpx;
+  color: #666;
+  overflow: hidden;
+  width: 100%;
+}
+
+.content-title {
+  font-size: 28rpx;
+  color: #000;
+  padding-bottom: 40rpx;
+  font-weight: bold;
+}
+
+.price-date {
+  display: flex;
+  justify-content: space-between;
+  padding: 15rpx 0; /*  */
+  border-top: 1px #ccc dotted;
+  border-bottom: 1px #ccc dotted;
+}
+
+.editbtn {
+  width: 120rpx;
+  height: 35rpx;
+  line-height: 35rpx;
+  border-radius: 35rpx;
+  text-align: center;
+  background: #8067ab;
+  color: white;
+  font-size: 20rpx;
+}
+
+.publishbtn {
+  width: 120rpx;
+  height: 35rpx;
+  line-height: 35rpx;
+  border-radius: 35rpx;
+  text-align: center;
+  background: #f00;
+  color: white;
+  font-size: 20rpx;
+  float: right;
+  margin-top: 20rpx;
+}
+
+.content-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stars {
+  padding: 15rpx 0;
+  display: flex;
+  align-items: center;
+}
+
+.stars text {
+  padding-left: 10rpx;
+}
+
+.stars image {
+  width: 25rpx;
+  height: 25rpx;
+}
+
+.writebtn {
+  width: 120rpx;
+  height: 35rpx;
+  line-height: 35rpx;
+  border-radius: 35rpx;
+  text-align: center;
+  background: #f00;
+  color: white;
+  font-size: 20rpx;
+  margin-top: 20rpx;
+}

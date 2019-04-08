@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/bookList/bookList",
+    "pages/musicList/musicList",
+    "pages/movieList/movieList",
+    "pages/musicDetial/musicDetial",
+    "pages/movieDetial/movieDetial",
+    "pages/bookDetial/bookDetial",
+    "pages/pay/pay",
+    "pages/payone/payone",
+    "pages/myOrder/myOrder",
+    "pages/myHistory/myHistory",
+    "pages/myCollection/myCollection",
+    "pages/myComment/myComment",
+    "pages/publishComment/publishComment",
+    "pages/myInfo/myInfo",
+    "pages/my/my",
+    "pages/cart/cart",
+    "pages/scan/scan",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#ff4444",
+    "backgroundColor": "#F7F7FA",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/ico/tabbar_home_gray.png",
+        "selectedIconPath": "static/ico/tabbar_home.png"
+      },
+      {
+        "pagePath": "pages/scan/scan",
+        "text": "扫码",
+        "iconPath": "static/ico/tabbar_scan_gray.png",
+        "selectedIconPath": "static/ico/tabbar_scan.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/ico/tabbar_cart_gray.png",
+        "selectedIconPath": "static/ico/tabbar_cart.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/ico/tabbar_my_gray.png",
+        "selectedIconPath": "static/ico/tabbar_my.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
